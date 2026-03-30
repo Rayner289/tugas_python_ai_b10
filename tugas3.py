@@ -1,5 +1,5 @@
 # Variabel & tipe data
-nama = "Reyx"
+nama = "Rayner"
 umur = 20
 tinggi = 170.5
 is_student = True
@@ -16,7 +16,7 @@ print(len(teks))
 print(teks.upper())
 print(teks.lower())
 
-# Operasi matematika
+# Matematika
 print("\n=== Matematika ===")
 a = 10
 b = 3
@@ -35,7 +35,7 @@ buah.append("melon")
 buah.remove("jeruk")
 print(buah)
 
-# Input user
+# Input
 print("\n=== Input ===")
 nama_user = input("Nama lu: ")
 umur_user = input("Umur lu: ")
