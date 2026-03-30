@@ -71,7 +71,7 @@ print(kuadrat)
 dict_comp = {x: "genap" if x % 2 == 0 else "ganjil" for x in range(1, 11)}
 print(dict_comp)
 
-kalimat = "Halo Dunia Rayner"
+kalimat = "Halo Rayner"
 set_comp = {c.lower() for c in kalimat if c != " "}
 print(set_comp)
 
