@@ -3,7 +3,7 @@ nama = "Rayner"
 umur = 20
 tinggi = 170.5
 is_student = True
-hobi = ["membaca", "bermain game", "belajar", "olahraga", "analisa market", "trading"]
+hobi = ["membaca", "bermain game", "belajar", "olahraga",  "trading"]
 
 print("=== Variabel ===")
 print(nama, umur, tinggi, is_student, hobi)
