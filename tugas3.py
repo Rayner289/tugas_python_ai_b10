@@ -3,20 +3,20 @@ nama = "Rayner"
 umur = 20
 tinggi = 170.5
 is_student = True
-hobi = ["coding", "gaming", "scroll tiktok", "makan", "tidur"]
+hobi = ["membaca", "bermain game", "belajar", "olahraga", "analisa market", "trading"]
 
 print("=== Variabel ===")
 print(nama, umur, tinggi, is_student, hobi)
 
 # Manipulasi string
 print("\n=== String ===")
-teks = "halo dunia"
-print(teks + " anjing")
+teks = "hello world"
+print(teks + " python")
 print(len(teks))
 print(teks.upper())
 print(teks.lower())
 
-# Matematika
+# Operasi matematika
 print("\n=== Matematika ===")
 a = 10
 b = 3
@@ -35,8 +35,8 @@ buah.append("melon")
 buah.remove("jeruk")
 print(buah)
 
-# Input
+# Input user
 print("\n=== Input ===")
-nama_user = input("Nama lu: ")
-umur_user = input("Umur lu: ")
-print("Halo, nama saya", nama_user, "dan umur saya", umur_user, "tahun.")
+nama_user = input("Masukkan nama: ")
+umur_user = input("Masukkan umur: ")
+print(f"Halo, nama saya {nama_user} dan umur saya {umur_user} tahun.")
